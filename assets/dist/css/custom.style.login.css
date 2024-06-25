@@ -1,0 +1,67 @@
+body {
+    background: url('../img/loginBack.jpeg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.login-box {
+    width: 400px;
+    margin: 7% auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 1s ease-in-out;
+}
+
+.login-logo a {
+    color: #333;
+    font-weight: 700;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-card-body {
+    padding: 40px;
+    border-top: 0;
+    color: #444;
+}
+
+.btn-primary {
+    background-color: #667eea;
+    border-color: #667eea;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #5563d7;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-control {
+    border-radius: 5px;
+}
+
+.input-group-text {
+    border-radius: 0 5px 5px 0;
+}
+
+.login-box-msg, .register-box-msg {
+    margin: 0;
+    text-align: center;
+    padding: 0 20px 20px;
+    color: #444;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
